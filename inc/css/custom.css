@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*.inner-header ul li a{color:#000 !important}
+.inner-header ul li a:hover{color:#4dc6e1 !important}
+.inner-header ul li a.site_btn{background:#4dc6e1 !important}*/
+.banner-content .breadcrumb { padding:0px 0px 10px 0px; margin-bottom: 0px; list-style: none; background: transparent;  text-align: center; font-size: 13px; }
+.banner-content .breadcrumb a { color: #999999; font-size: 13px; text-decoration: none; }
+.banner-content .breadcrumb a:hover { color: #999; text-decoration: underline; }
+#breadcrumbs { list-style: none; margin: 15px 0 0; overflow: hidden; padding: 0; }
+#breadcrumbs li span{color:#999}
+#breadcrumbs li { display: inline-block; vertical-align: middle; margin-right:5px; font-size: 13px;line-height:20px }
+#breadcrumbs .separator { font-size: 15px; font-weight: 100; color: #999; }
+.inner-banner{padding:50px 0 0 0}
+.banner-content h2{ font-family:'GothamMedium';font-size:30px;background:url(../../images/blue-line.jpg) no-repeat center bottom;min-height:60px;margin:0}
+.banner-content p{font-family:'Open Sans'; font-weight: 400; font-size:18px;line-height:28px;margin:50px 0 }
+.asset-class{background:#f2f2f2;padding:60px 0 85px 0}
+.asset-class h3{font-size:25px;font-family: 'Gotham-Book';margin:0 0 35px 0}
+.assets {width:176px;height:196px;background:#4dc6e1;border-radius:10px;cursor:pointer;-moz-box-shadow: 0px 3px 10px #ddd;
+-webkit-box-shadow: 0px 3px 10px #ddd;
+box-shadow-bottom: 10px #ddd;}
+.assets:hover{background:#000}
+.assets:hover h4{color:#fff;line-height:22px;}
+.image{margin:0 auto 30px;text-align:center;width:58px;display:block;padding:40px 0 0}
+.image-hover{margin:0 auto 25px;text-align:center;width:58px;display:block;padding:40px 0 0}
+.image-hover,.assets:hover .image{display:none}
+.assets:hover .image-hover{display:block !important}
+.assets h4{font-family:'GothamMedium';font-size:16px;text-align:center; }
+.investment{padding:115px 0 0 0;background:url(../../images/investment-bg.png) no-repeat right bottom;min-height:558px;}
+.investment h2{font-family:'GothamMedium';font-size:30px;margin:0 0 40px 0}
+.investment h2 span{font-family:'Open Sans'; font-weight: 400;color:#4dc6e1;font-size:24px; display: block; margin-top: 20px}
+.invest-in{padding:0 0 90px 0}
+.investment p{font-family:'Open Sans'; font-weight: 400;color:#333333;font-size:16px;margin:0 0 30px 0;line-height:24px;}
+
+
+@media(max-width: 1100px){
+.assets {width:150px !important;}
+}
+@media(max-width: 1200px){
+.investment span br,.investment p br{display:none}
+}
+@media(max-width: 991px){
+.assets{margin:0 auto 20px }
+.investment{background:none}
+.invest-image {background:url(../../images/investment-bg.png) no-repeat 30% bottom;min-height:558px;}
+.assets {width: 176px !important;}
+.inner-banner{padding:150px 0 0 0}
+}
+@media(max-width: 767px){
+.banner-content p{padding:15px}
+.inner-banner{padding:100px 0 0 0}
+
+}
+@media(max-width: 640px){
+.asset-class h3{font-size: 20px;}
+.investment .col-md-5{padding:0}
+.investment span{font-size:20px;}
+
+}
+@media(max-width: 400px){
+.breadcrumb a,#breadcrumbs li{font-size:12px;}
+.banner-content h2{font-size:24px}
+.investment h2{font-size:24px}
+.asset-class .col-xs-6{width:100% !important}
+
+}
